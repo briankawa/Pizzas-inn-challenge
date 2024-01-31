@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f0f0f0;
+}
+
+main {
+  max-width: 9000px;
+  margin: 20px auto;
+}
+
+.restaurant-container {
+  border: 1px solid #d1b9b9;
+  padding: 10px;
+  margin: 10px 0;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.restaurant-container:hover{
+  box-shadow: 3px 5px 8px;
+  transform: rotate(360deg);
+}
+.restaurant-info {
+  margin-bottom: 10px;
+}
+
+.restaurant-link {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #d5e63a;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.restaurant-link:hover {
+  background-color: #030316;
+}
+
+.heading {
+  color: #333;
+}
+
+.detailText {
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.pizza-item {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.add-pizza-button {
+  display: inline-block;
+  padding: 10px;
+  background-color: #ff1bec;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.add-pizza-button:hover {
+  background-color: #3a045a;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.pizza-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+select,
+input {
+  margin-bottom: 10px;
+  padding: 18px;
+  border: 1px solid #0ff984;
+  border-radius: 5px;
+  background-color: #7d7575;
+  color: #0af6d3;
+
+}
+
+.error-message {
+  color: #dc3545;
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  padding: 10px;
+  background-color: #ff0000;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 26px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
